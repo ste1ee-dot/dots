@@ -26,4 +26,5 @@ sudo pacman --noconfirm -Rs kitty
 cd $SCRIPT_DIR
 cd ../..
 stow --adopt --ignore="README.md" */
+# Restores the original symlinks previously overwritten by --adopt
 git restore .
