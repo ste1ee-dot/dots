@@ -7,7 +7,7 @@ SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)
 sudo pacman -Syu --noconfirm
 
 # Setup Paru AUR Helper
-sudo pacman -Syu --needed --noconfirm base-devel git
+sudo pacman -Syu --needed --noconfirm base-devel
 git clone https://aur.archlinux.org/paru.git $HOME/paru
 cd $HOME/paru
 makepkg -si --noconfirm
