@@ -23,4 +23,5 @@ sudo pacman -Rs kitty
 
 # Some cool stow action
 cd $SCRIPT_DIR
+cd ../..
 stow *
