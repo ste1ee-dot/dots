@@ -14,15 +14,16 @@ makepkg -si --noconfirm
 cd $HOME
 
 # Time to install some apps
-sudo pacman -Syu --needed firefox stow waybar hyprpaper nerd-fonts \
+sudo pacman -Syu --needed --noconfirm firefox stow waybar hyprpaper nerd-fonts \
                         ttf-jetbrains-mono-nerd pipewire wireplumber go npm \
                         pavucontrol
-paru -Syu --needed wezterm neovim-nightly
+paru -Syu --needed --noconfirm wezterm neovim-nightly
 
 # Remove some apps
-sudo pacman -Rs kitty
+sudo pacman --noconfirm -Rs kitty
 
 # Some cool stow action
 cd $SCRIPT_DIR
 cd ../..
+rm $HOME/.bashrc
 stow --ignore="README.md" */
