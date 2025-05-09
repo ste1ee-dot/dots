@@ -15,7 +15,8 @@ cd $HOME
 
 # Time to install some apps
 sudo pacman -Syu --needed firefox stow waybar hyprpaper nerd-fonts \
-                        ttf-jetbrains-mono-nerd pipewire wireplumber go npm
+                        ttf-jetbrains-mono-nerd pipewire wireplumber go npm \
+                        pavucontrol
 paru -Syu --needed wezterm neovim-nightly
 
 # Remove some apps
