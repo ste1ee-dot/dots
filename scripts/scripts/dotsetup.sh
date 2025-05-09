@@ -20,7 +20,7 @@ sudo pacman -Syu --needed --noconfirm firefox stow waybar hyprpaper nerd-fonts \
 paru -Syu --needed --noconfirm wezterm-git neovim-nightly
 
 # Remove some apps
-sudo pacman --noconfirm -Rs kitty
+sudo pacman --noconfirm -Rs kitty vim
 
 # Some cool stow action
 cd $SCRIPT_DIR
