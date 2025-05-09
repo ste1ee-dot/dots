@@ -25,5 +25,5 @@ sudo pacman --noconfirm -Rs kitty
 # Some cool stow action
 cd $SCRIPT_DIR
 cd ../..
-rm $HOME/.bashrc
-stow --ignore="README.md" */
+stow --adopt --ignore="README.md" */
+git restore .
