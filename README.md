@@ -13,3 +13,4 @@ When you're finished reboot!
 * [ ] Fix hover over workspaces
 * [x] Fix brightness hotkey
 * [ ] Figure out keyboard backlight
+* [ ] Add sliders for stuff
