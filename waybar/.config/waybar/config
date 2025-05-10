@@ -6,7 +6,7 @@
 
     "modules-left": ["hyprland/workspaces", "temperature"],
     "modules-center": ["clock"],
-    "modules-right": ["wireplumber", "battery", "backlight", "custom/brightness", "bluetooth", "network", "tray"],
+    "modules-right": ["backlight", "custom/brightness", "battery", "wireplumber", "bluetooth", "network", "tray"],
 
     "hyprland/workspaces": {
         "format": " <span size='large'>{icon}</span>",
@@ -61,15 +61,15 @@
     },
 
     "temperature": {
-        "format": " {temperatureC}°C"
+        "format": "\uf2c9 {temperatureC}°C"
     },
 
     "network": {
         "format": "",
-        "format-ethernet": "\udb83\udc9d ",
+        "format-ethernet": "\udb80\ude00 ",
         "format-wifi": "{icon}",
-        "format-disconnected": "\udb83\udc9c",
-        "format-icons": ["\udb82\udd2f", "\udb82\udd1f", "\udb82\udd22", "\udb82\udd25", "\udb82\udd28"],
+        "format-disconnected": "\udb80\ude02 ",
+        "format-icons": ["\udb82\udd2f ", "\udb82\udd1f ", "\udb82\udd22 ", "\udb82\udd25 ", "\udb82\udd28 "],
         "tooltip-format-wifi": "{essid} ({signalStrength}%)",
         "tooltip-format-ethernet": "{ifname}",
         "tooltip-format-disconnected": "Disconnected",
@@ -79,8 +79,8 @@
     "bluetooth": {
         "on-click": "blueman-manager",
         "format": "\udb80\udcaf",
-        "format-disabled": "\udb80\udcb2",
-        "format-connected": "\udb80\udcb1",
+        "format-disabled": "\udb80\udcb1",
+        "format-connected": "\udb80\udcb2",
         "tooltip-format": "{controller_alias}\t{controller_address}",
         "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
         "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}"
