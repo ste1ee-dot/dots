@@ -6,7 +6,7 @@
 
     "modules-left": ["hyprland/workspaces", "temperature"],
     "modules-center": ["clock"],
-    "modules-right": ["wireplumber", "battery", "backlight", "network", "tray"],
+    "modules-right": ["wireplumber", "battery", "backlight", "bluetooth", "network", "tray"],
 
     "hyprland/workspaces": {
         "format": " <span size='larger'>{icon}</span>",
@@ -65,9 +65,11 @@
         "tooltip-format-wifi": "{essid} ({signalStrength}%)",
         "tooltip-format-ethernet": "{ifname}",
         "tooltip-format-disconnected": "Disconnected",
+        "on-click": "wezterm -e sh -c 'nmtui-connect'"
     },
 
     "bluetooth": {
+        "on-click": "blueman-manager",
         "format": "\udb80\udcaf",
         "format-disabled": "\udb80\udcb2",
         "format-connected": "\udb80\udcb1",
