@@ -8,4 +8,4 @@ alias grep='grep --color=auto'
 
 alias stowi='stow --ignore="README.md" */'
 alias stowai='stow --adopt --ignore="README.md" */'
-alias stowupdate='git pull && stow --adobt --ignore="README.md" */ && git restore .'
+alias stowupdate='git pull && stow --adopt --ignore="README.md" */ && git restore .'
