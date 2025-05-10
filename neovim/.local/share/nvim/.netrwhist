@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =3
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/stefan/.config/hypr'
 let g:netrw_dirhist_3='/home/stefan/Stowdir/waybar/.config/waybar'
 let g:netrw_dirhist_2='/home'
 let g:netrw_dirhist_1='/home/stefan'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_8='/home/stefan/Stowdir/neovim/.config/nvim'
 let g:netrw_dirhist_7='/'
 let g:netrw_dirhist_6='/home'
 let g:netrw_dirhist_5='/home/stefan'
-let g:netrw_dirhist_4='/home/stefan/Stowdir'
