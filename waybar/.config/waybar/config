@@ -6,7 +6,7 @@
 
     "modules-left": ["hyprland/workspaces", "temperature"],
     "modules-center": ["clock"],
-    "modules-right": ["wireplumber", "battery", "backlight", "bluetooth", "network", "tray"],
+    "modules-right": ["wireplumber", "battery", "backlight", "custom/brightness", "bluetooth", "network", "tray"],
 
     "hyprland/workspaces": {
         "format": " <span size='large'>{icon}</span>",
@@ -44,7 +44,15 @@
     },
 
     "backlight": {
-        "format": "\udb80\udcdf {percent}%"
+        "device": "intel_backlight",
+        "format": "\udb80\udcdf {percent}%",
+    },
+
+    "custom/brightness": {
+        "format": "⌨️ {percentage}%",
+        "return-type": "json",
+        "exec": "brightnessctl --device=tpacpi::kbd_backlight | grep -oP '\\d+(?=%)' | { read x; echo '{\"percentage\":'${x}'}'; }",
+        "interval": 1,
     },
 
     "memory": {
