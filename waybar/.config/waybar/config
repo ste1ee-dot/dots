@@ -9,7 +9,7 @@
     "modules-right": ["wireplumber", "battery", "backlight", "bluetooth", "network", "tray"],
 
     "hyprland/workspaces": {
-        "format": " <span size='larger'>{icon}</span>",
+        "format": " <span size='large'>{icon}</span>",
         "on-click": "activate",
         "format-icons": {
             "active": "\uf444",

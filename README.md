@@ -10,7 +10,7 @@ When you're finished reboot!
 ## TODO for now:
 * [x] Make border brighter
 * [x] Add everything needed for laptop
-* [ ] Fix hover over workspaces
+* [x] Fix hover over workspaces
 * [x] Fix brightness hotkey
 * [ ] Figure out keyboard backlight
 * [ ] Add sliders for stuff

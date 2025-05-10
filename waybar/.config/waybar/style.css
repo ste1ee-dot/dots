@@ -16,8 +16,7 @@
 
 #workspaces button {
     color: @foreground;
-    padding-left: 0.115em;
-    padding-right: 0.585em;
+    padding-right: 1em;
 }
 
 #workspaces button.empty {
@@ -36,5 +35,5 @@
 #network,
 #bluetooth,
 #tray {
-    padding-right: 1em 
+    padding-right: 1em
 }
