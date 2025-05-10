@@ -5,3 +5,5 @@ alias v='nvim'
 alias vi='nvim'
 alias vim='nvim'
 alias grep='grep --color=auto'
+
+alias stowa='stow --ignore="README.md" */'

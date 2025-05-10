@@ -12,3 +12,4 @@ When you're finished reboot!
 * [ ] Fix hover over workspaces
 * [ ] Fix brightness hotkey
 * [ ] Figure out keyboard backlight
+* [ ] Make border brighter
