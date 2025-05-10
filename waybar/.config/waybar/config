@@ -49,7 +49,7 @@
     },
 
     "custom/brightness": {
-        "format": "⌨️ {percentage}%",
+        "format": "\udb80\udf0c {percentage}%",
         "return-type": "json",
         "exec": "brightnessctl --device=tpacpi::kbd_backlight | grep -oP '\\d+(?=%)' | { read x; echo '{\"percentage\":'${x}'}'; }",
         "interval": 1,

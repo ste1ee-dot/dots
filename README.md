@@ -12,5 +12,5 @@ When you're finished reboot!
 * [x] Add everything needed for laptop
 * [x] Fix hover over workspaces
 * [x] Fix brightness hotkey
-* [ ] Figure out keyboard backlight
+* [x] Figure out keyboard backlight
 * [ ] Add sliders for stuff
