@@ -8,7 +8,7 @@ Just follow the promts, run PackerSync in neovim, and also delete the folder if 
 When you're finished reboot!
 
 ## TODO for now:
-* [ ] Make border brighter
+* [x] Make border brighter
 * [ ] Add everything needed for laptop
 * [ ] Fix hover over workspaces
 * [ ] Fix brightness hotkey
