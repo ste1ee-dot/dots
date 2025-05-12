@@ -17,7 +17,7 @@ cd $HOME
 sudo pacman -Syu --needed --noconfirm firefox stow waybar hyprpaper nerd-fonts \
                         ttf-jetbrains-mono-nerd pipewire wireplumber go npm \
                         pavucontrol blueman brightnessctl
-paru -Syu --needed --noconfirm wezterm-git neovim-nightly
+paru -Syu --needed --noconfirm wezterm-git neovim-nightly stremio
 
 # Remove some apps
 sudo pacman --noconfirm -Rs kitty vim
