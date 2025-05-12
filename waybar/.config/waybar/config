@@ -4,7 +4,7 @@
     "height": 24,
     "spacing": 5,
 
-    "modules-left": ["hyprland/workspaces", "temperature"],
+    "modules-left": ["custom/apps", "hyprland/workspaces", "temperature"],
     "modules-center": ["clock"],
     "modules-right": ["backlight", "custom/brightness", "battery", "wireplumber", "bluetooth", "network", "tray"],
 
@@ -24,6 +24,11 @@
             "4": [],
             "5": [],
         }
+    },
+
+    "custom/apps": {
+        "format": "\uf40e",
+        "on-click": "wofi --show drun"
     },
 
     "clock": {

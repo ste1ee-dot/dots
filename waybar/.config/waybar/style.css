@@ -23,6 +23,11 @@
     color: @foreground-inactive;
 }
 
+#custom-apps {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
 #memory,
 #temperature {
     padding-left: 0.5em

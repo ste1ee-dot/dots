@@ -8,14 +8,18 @@
     background: #1d2021;
     margin: auto;
     padding: 10px;
-    border-radius: 20px;
-    border: 5px solid #33ccff;
 }
 
 #input {
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 15px;
+}
+
+#input:focus {
+    outline: none !important;
+    border: 3px solid #2e4032;
+    box-shadow: 0 0 0px #71ce74;
 }
 
 #outer-box {
@@ -28,11 +32,11 @@
 
 #entry {
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 #entry:selected {
-    background-color: #2e3440;
+    background-color: #2e4032;
 }
 
 #text {
