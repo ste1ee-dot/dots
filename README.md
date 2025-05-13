@@ -15,5 +15,5 @@ When you're finished reboot!
 * [x] Figure out keyboard backlight
 * [ ] Add sliders for stuff
 * [x] Make app launcher button
-* [ ] Make Shutdown menu button
+* [x] Make Shutdown menu button
 * [ ] Make grub look cool

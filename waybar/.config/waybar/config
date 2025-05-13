@@ -6,7 +6,7 @@
 
     "modules-left": ["custom/apps", "hyprland/workspaces", "temperature"],
     "modules-center": ["clock"],
-    "modules-right": ["backlight", "custom/brightness", "battery", "wireplumber", "bluetooth", "network", "tray"],
+    "modules-right": ["backlight", "custom/brightness", "battery", "wireplumber", "bluetooth", "network", "tray", "custom/power"],
 
     "hyprland/workspaces": {
         "format": " <span size='large'>{icon}</span>",
@@ -29,6 +29,12 @@
     "custom/apps": {
         "format": "\uf40e",
         "on-click": "wofi --show drun"
+    },
+
+    "custom/power": {
+        "format": "\u23fb",
+        "tooltip": false,
+        "on-click": "wlogout --protocol layer-shell"
     },
 
     "clock": {
