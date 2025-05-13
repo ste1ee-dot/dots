@@ -16,8 +16,9 @@ cd $HOME
 # Time to install some apps
 sudo pacman -Syu --needed --noconfirm firefox stow waybar hyprpaper nerd-fonts \
                         ttf-jetbrains-mono-nerd pipewire wireplumber go npm \
-                        pavucontrol blueman brightnessctl discord
-paru -Syu --needed --noconfirm wezterm-git neovim-nightly stremio wlogout
+                        pavucontrol blueman brightnessctl discord thermald
+paru -Syu --needed --noconfirm wezterm-git neovim-nightly stremio wlogout \
+                        auto-cpufreq
 
 # Remove some apps
 sudo pacman --noconfirm -Rs kitty vim
@@ -36,3 +37,5 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 
 # Makes bluetooth work
 sudo systemctl enable --now bluetooth
+sudo systemctl enable --now thermald
+sudo systemctl enable --now auto-cpufreq
