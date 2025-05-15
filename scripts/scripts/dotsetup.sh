@@ -40,3 +40,7 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 sudo systemctl enable --now bluetooth
 sudo systemctl enable --now thermald
 sudo systemctl enable --now auto-cpufreq
+
+# Run additional scripts
+cd $SCRIPT_DIR
+sudo ./update_makepkg.sh
