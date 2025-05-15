@@ -16,7 +16,8 @@ cd $HOME
 # Time to install some apps
 sudo pacman -Syu --needed --noconfirm firefox stow waybar hyprpaper nerd-fonts \
                         ttf-jetbrains-mono-nerd pipewire wireplumber go npm \
-                        pavucontrol blueman brightnessctl discord thermald
+                        pavucontrol blueman brightnessctl discord thermald \
+                        qalculate-qt
 paru -Syu --needed --noconfirm wezterm-git neovim-nightly stremio wlogout \
                         auto-cpufreq
 
