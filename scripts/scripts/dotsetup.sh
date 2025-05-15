@@ -18,6 +18,13 @@ sudo pacman -Syu --needed --noconfirm firefox stow waybar hyprpaper nerd-fonts \
                         ttf-jetbrains-mono-nerd pipewire wireplumber go npm \
                         pavucontrol blueman brightnessctl discord thermald \
                         qalculate-qt
+
+# Run additional scripts
+cd $SCRIPT_DIR
+sudo ./update_makepkg.sh
+
+# PARUUU
+cd $HOME
 paru -Syu --needed --noconfirm wezterm-git neovim-nightly stremio wlogout \
                         auto-cpufreq
 
@@ -41,6 +48,3 @@ sudo systemctl enable --now bluetooth
 sudo systemctl enable --now thermald
 sudo systemctl enable --now auto-cpufreq
 
-# Run additional scripts
-cd $SCRIPT_DIR
-sudo ./update_makepkg.sh
